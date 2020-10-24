@@ -17,8 +17,12 @@ module.exports = {
         'cda-black': "#030201",
       },
       fontFamily: {
-        'medieval': ['MedievalSharp', 'cursive'],
-        'roboto': ['Roboto', 'sans-serif']
+        'medieval': ['Grenze Gotisch', 'cursive'],
+        'roboto': ['Roboto', 'sans-serif'],
+        'grenze': ['Grenze', 'serif']
+      },
+      zIndex: {
+       '-10': '-10',
       }
     },
   },

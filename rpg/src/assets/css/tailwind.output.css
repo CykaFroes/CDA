@@ -10486,11 +10486,15 @@ video {
 }
 
 .font-medieval {
-  font-family: MedievalSharp, cursive;
+  font-family: Grenze Gotisch, cursive;
 }
 
 .font-roboto {
   font-family: Roboto, sans-serif;
+}
+
+.font-grenze {
+  font-family: Grenze, serif;
 }
 
 .font-hairline {
@@ -20089,6 +20093,10 @@ video {
 
 .z-auto {
   z-index: auto;
+}
+
+.-z-10 {
+  z-index: -10;
 }
 
 .gap-0 {
@@ -32989,11 +32997,15 @@ video {
   }
 
   .sm\:font-medieval {
-    font-family: MedievalSharp, cursive;
+    font-family: Grenze Gotisch, cursive;
   }
 
   .sm\:font-roboto {
     font-family: Roboto, sans-serif;
+  }
+
+  .sm\:font-grenze {
+    font-family: Grenze, serif;
   }
 
   .sm\:font-hairline {
@@ -42592,6 +42604,10 @@ video {
 
   .sm\:z-auto {
     z-index: auto;
+  }
+
+  .sm\:-z-10 {
+    z-index: -10;
   }
 
   .sm\:gap-0 {
@@ -55427,11 +55443,15 @@ video {
   }
 
   .md\:font-medieval {
-    font-family: MedievalSharp, cursive;
+    font-family: Grenze Gotisch, cursive;
   }
 
   .md\:font-roboto {
     font-family: Roboto, sans-serif;
+  }
+
+  .md\:font-grenze {
+    font-family: Grenze, serif;
   }
 
   .md\:font-hairline {
@@ -65030,6 +65050,10 @@ video {
 
   .md\:z-auto {
     z-index: auto;
+  }
+
+  .md\:-z-10 {
+    z-index: -10;
   }
 
   .md\:gap-0 {
@@ -77865,11 +77889,15 @@ video {
   }
 
   .lg\:font-medieval {
-    font-family: MedievalSharp, cursive;
+    font-family: Grenze Gotisch, cursive;
   }
 
   .lg\:font-roboto {
     font-family: Roboto, sans-serif;
+  }
+
+  .lg\:font-grenze {
+    font-family: Grenze, serif;
   }
 
   .lg\:font-hairline {
@@ -87468,6 +87496,10 @@ video {
 
   .lg\:z-auto {
     z-index: auto;
+  }
+
+  .lg\:-z-10 {
+    z-index: -10;
   }
 
   .lg\:gap-0 {
@@ -100303,11 +100335,15 @@ video {
   }
 
   .xl\:font-medieval {
-    font-family: MedievalSharp, cursive;
+    font-family: Grenze Gotisch, cursive;
   }
 
   .xl\:font-roboto {
     font-family: Roboto, sans-serif;
+  }
+
+  .xl\:font-grenze {
+    font-family: Grenze, serif;
   }
 
   .xl\:font-hairline {
@@ -109906,6 +109942,10 @@ video {
 
   .xl\:z-auto {
     z-index: auto;
+  }
+
+  .xl\:-z-10 {
+    z-index: -10;
   }
 
   .xl\:gap-0 {

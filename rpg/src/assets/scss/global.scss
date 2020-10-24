@@ -13,20 +13,24 @@ html {
   }
   
   .bg {
-    animation:slide 3s ease-in-out alternate;
     background-image: linear-gradient(-60deg, rgba(237,207,74,1) 50%, rgba(237,178,74,1) 50%);
-    bottom:0;
-    left:-50%;
-    opacity:.5;
+    bottom: 0;
+    left:-110%;
+    opacity:1;
     position:fixed;
     right:-50%;
     top:0;
-    z-index:-1;
+  }
+
+  .bg-on {
+    animation:slide 3s ease-in-out both alternate;
+    bottom:-100%;
+    left: -50%;
+    animation-iteration-count: 2;
   }
   
-  .bg2 {
-    animation-direction:alternate-reverse;
-    animation-duration:4s;
+  .bg-off {
+    z-index:-1;
   }
   
   .bg3 {
@@ -57,4 +61,15 @@ html {
     100% {
       transform:translateX(25%);
     }
+  }
+
+
+  .cda-font-extreme {
+      font-size: 300px;
+  }
+
+  @media screen and (max-width: 1024px) {
+      .cda-font-extreme {
+          font-size: 120px;
+      }
   }
