@@ -6,18 +6,11 @@ import Main from "./components/Main.jsx";
 function App() {
   let background = document.querySelector(".bg");
 
-  const animEnd = () => {
-    console.log("terminou a primeira animação");
-    background.classList.add('-z-10')
-    background.classList.remove('z-0')
-  };
 
 
-  
 
 
   useEffect(() => {
-    background.addEventListener("webkitAnimationEnd", animEnd);
     console.log('dom alterada');
   });
   return (
@@ -27,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

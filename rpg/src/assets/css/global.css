@@ -1,6 +1,6 @@
 body {
   background: #edcf4a;
-  background: linear-gradient(315deg, #edcf4a 0%, #edb24a 35%);
+  background: linear-gradient(145deg, #edcf4a 34%, #edb24a 70%);
 }
 
 html {
@@ -9,31 +9,6 @@ html {
 
 body {
   margin: 0;
-}
-
-.bg {
-  background-image: linear-gradient(-60deg, #edcf4a 50%, #edb24a 50%);
-  bottom: 0;
-  left: -110%;
-  opacity: 1;
-  position: fixed;
-  right: -50%;
-  top: 0;
-}
-
-.bg-on {
-  animation: slide 3s ease-in-out both alternate;
-  bottom: -100%;
-  left: -50%;
-  animation-iteration-count: 2;
-}
-
-.bg-off {
-  z-index: -1;
-}
-
-.bg3 {
-  animation-duration: 5s;
 }
 
 .content {

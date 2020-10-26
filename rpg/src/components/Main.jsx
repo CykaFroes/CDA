@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from "react";
+import FadeIn from 'react-fade-in';
+import Navigation from "./Navigation.jsx";
 
 const Main = () => {
+  
+  useEffect(() => {
+    const body = document.querySelector('body')
+    body.style.background = "";
+  })
+  
   function fadeOut(id, time) {
     fade(id, time, 100, 0);
   }
@@ -35,40 +43,42 @@ const Main = () => {
 
   setTimeout(function () {
     fadeIn("letterC", 2);
-  }, 8000);
+  }, 1000);
 
   setTimeout(function () {
     fadeIn("dot1", 2);
-  }, 8500);
+  }, 1500);
 
   setTimeout(function () {
     fadeIn("letterD", 2);
-  }, 10000);
+  }, 3000);
 
   setTimeout(function () {
     fadeIn("dot2", 2);
-  }, 10500);
+  }, 3500);
 
   setTimeout(function () {
     fadeIn("letterA", 2);
-  }, 12000);
+  }, 5000);
 
   setTimeout(function () {
     fadeIn("soon", 2);
-  }, 13000);
+  }, 6000);
 
   return (
     <div className="main">
       <div className="container mx-auto flex justify-center h-screen">
         <div className="flex justify-center items-center flex-col">
-          <h1 className="mainTitle text-3xl " id="teste">
-            <span className="font-medieval cda-font-extreme text-white opacity-0" id="letterC">C</span>
-            <span className="font-medieval cda-font-extreme text-black opacity-0" id="dot1">.</span>
-            <span className="font-medieval cda-font-extreme text-black opacity-0" id="letterD">D</span>
-            <span className="font-medieval cda-font-extreme text-white opacity-0" id="dot2">.</span>
-            <span className="font-medieval cda-font-extreme text-white opacity-0" id="letterA">A</span>
+          <h1 className="mainTitle text-3xl flex" id="teste">
+            <span className="font-medieval cda-font-extreme text-black opacity-0" id="letterC">C</span>
+            <span className="font-medieval cda-font-extreme text-white opacity-0" id="dot1">.</span>
+            <span className="font-medieval cda-font-extreme text-white opacity-0" id="letterD">D</span>
+            <span className="font-medieval cda-font-extreme text-black opacity-0" id="dot2">.</span>
+            <span className="font-medieval cda-font-extreme text-black opacity-0" id="letterA">A</span>
           </h1>
-          <p className="text-black  text-2xl lg:text-6xl md:text-4xl font-grenze opacity-0" id="soon">Em breve...</p>
+          <div id="soon" className="opacity-0">
+            <Navigation />
+          </div>
         </div>
       </div>
     </div>
